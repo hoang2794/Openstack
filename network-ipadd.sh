@@ -43,7 +43,7 @@ echo "########## Config br-int and br-ex for OpenvSwitch ##########"
 sleep 5
 ovs-vsctl add-br br-int
 ovs-vsctl add-br br-ex
-ovs-vsctl add-port br-ex eth1
+ovs-vsctl add-port br-ex eth0
 
 echo "########## Config IP address for br-ex ##########"
 
